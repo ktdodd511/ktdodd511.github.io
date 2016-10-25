@@ -1,1 +1,23 @@
-/* custom styles */
+h1 {
+  color: rgb(211,211,211);
+  background-color: rgb(35, 75, 90);
+
+}
+
+head, body {
+  font-family: 'Slabo 27px', serif;
+
+}
+
+nav {
+  /*display: inline-block;*/
+  
+}
+
+#nav-bar {
+  background-color: rgb(35, 150, 90);
+  display: block;
+  
+
+}
+
