@@ -1,6 +1,7 @@
 h1 {
   color: rgb(211,211,211);
   background-color: rgb(35, 75, 90);
+  font-size: 2.8em;
 
 }
 
@@ -9,15 +10,25 @@ head, body {
 
 }
 
-nav {
-  /*display: inline-block;*/
-  
+body {
+  background-color: rgb(255,239,213);
 }
+
 
 #nav-bar {
   background-color: rgb(35, 150, 90);
-  display: block;
+  display: inline-block;
+  float: center;
+  text-decoration: none;
+  list-style-type: none;
   
+}
 
+#nav-bar li {
+  list-style-type: none;
+  margin: 25px;
+  float: left;
+  text-decoration: none;
+  font-size: 2em;
 }
 
