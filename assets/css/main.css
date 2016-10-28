@@ -71,27 +71,38 @@ footer {
   height: 20px;
   position: fixed;
   margin: 0 auto;
-  font-size: 50px;
-  top: 50%;
-  left: 50%;
+  font-size: 80px;
+  top: 40%;
+  left: 40%;
   
 }
 
 #homework-links {
   display: block;
   margin: 0 auto;
-  font-size: 50px;
+  font-size: 80px;
   position: fixed;
-  top: 50%;
-  left: 50%;
- 
+  top: 40%;
+  left: 40%;
+
   
 }
 
-div {
-  text-decoration: none;
-  color: rgb(152,251,152);
 
+.boxes {
+  border-style: dashed;
+  border-color: rgb(255,255,255);
+  border-width: 1px;
+  height: 200px;
+  width: 200px;
+
+}
+
+
+button {
+  border-color: rgb(0,0,0);
+  border-style: solid;
+  border-width: 20px;
 }
 
 
