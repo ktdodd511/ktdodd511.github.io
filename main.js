@@ -1,22 +1,5 @@
-var button = document.createElement("button");
-button.innerHTML = "do something";
+var button = document.getElementsByClassName('hw-link');
 
-var body = document.getElementsByTagName('body');
-body.appendChild(button);
+button.onclick =
+  function() {alert("did something")};
 
-button.addEventListener("click",
-  function() {alert("did something")});
-
-
-function createBoxes() {
-
-  for (i = 0; i < 4; i++) {
-    var newDivs = document.createElement('div');
-    document.getElementById('homework-links').appendChild(newDivs);
-    newDivs.innerHTML = '<div class="boxes"></div>';
-
-  }
-}
-    
-
-createBoxes();
