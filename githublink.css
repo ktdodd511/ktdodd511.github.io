@@ -37,13 +37,6 @@ a {
 
 }
 
-#link-to-git {
-  color: #71C255;
-  text-decoration: none;
-  font-size: 50px;
-
-}
-
 
 .image {
   position: relative;
@@ -66,7 +59,10 @@ footer {
 }
 
 
-.hw-link {
+#link-to-1026, #link-to-1027, #link-to-1028 {
+  color: #71C255;
+  text-decoration: none;
+  font-size: 40px;
   border-color: rgb(0,0,0);
   border-style: solid;
   border-width: 10px;
@@ -78,7 +74,20 @@ footer {
   margin: 0 auto;
   font-size: 65px;
   position: fixed;
-  top: 40%;
   left: 5%;
 
+}
+
+
+#link-to-1026 {
+  top: 40%;
+}
+
+#link-to-1027 {
+  top: 60%;
+
+}
+
+#link-to-1028 {
+  top: 80%;
 }

@@ -1,5 +1,5 @@
-var button = document.getElementsByClassName('hw-link');
+var button = document.getElementById('link-to-git');
 
 button.onclick =
-  function() {alert("did something")};
+  function() {alert("did something");};
 
