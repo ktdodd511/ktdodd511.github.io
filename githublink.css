@@ -59,7 +59,7 @@ footer {
 }
 
 
-#link-to-1026, #link-to-1027, #link-to-1028 {
+#link-to-1026, #link-to-1027, #link-to-1028, #link-to-1031 {
   color: #71C255;
   text-decoration: none;
   font-size: 40px;
@@ -80,14 +80,24 @@ footer {
 
 
 #link-to-1026 {
-  top: 40%;
+  top: 20%;
 }
 
 #link-to-1027 {
-  top: 60%;
+  top: 40%;
 
 }
 
 #link-to-1028 {
+  top: 60%;
+}
+
+#link-to-1031 {
   top: 80%;
 }
+
+
+
+
+
+
