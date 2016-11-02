@@ -36,22 +36,6 @@ a {
   text-decoration: none;
 }
 
-
-img {
-  min-height: 100%;
-  min-width: 1024px;
-  width: 100%;
-  height: auto;
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-
-.image {
-  position: relative;
-  width: 100%;
-}
-
 h1, nav {
   position: absolute; 
   left: 0;
@@ -93,48 +77,3 @@ p {
   left: 17%;
 
 }
-
-#homework-links {
-  display: block;
-  margin: 0 auto;
-  font-size: 80px;
-  position: fixed;
-  top: 40%;
-  left: 90%;
-
-}
-
-
-.hw-link {
-  border-color: rgb(0,0,0);
-  border-style: solid;
-  border-width: 10px;
-  border-left-width: 70px;
-  position: fixed;
-  top: 40%;
-  left: 10%;
-  font-size: 50px;
-  text-decoration: none;
-  padding: 0 20px;
-  display: block;
-  margin: 0 auto;
-  font-size: 80px;
-  position: fixed;
-  top: 40%;
-  left: 20%;
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-

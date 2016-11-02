@@ -62,7 +62,6 @@ footer {
 #link-to-1026, #link-to-1027, #link-to-1028, #link-to-1031 {
   color: #71C255;
   text-decoration: none;
-  font-size: 40px;
   border-color: rgb(0,0,0);
   border-style: solid;
   border-width: 10px;
@@ -72,7 +71,7 @@ footer {
   padding: 0 20px;
   display: block;
   margin: 0 auto;
-  font-size: 65px;
+  font-size: 35px;
   position: fixed;
   left: 5%;
 
@@ -84,16 +83,16 @@ footer {
 }
 
 #link-to-1027 {
-  top: 40%;
+  top: 30%;
 
 }
 
 #link-to-1028 {
-  top: 60%;
+  top: 40%;
 }
 
 #link-to-1031 {
-  top: 80%;
+  top: 50%;
 }
 
 
