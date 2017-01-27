@@ -59,7 +59,8 @@ footer {
 }
 
 
-#link-to-1026, #link-to-1027, #link-to-1028, #link-to-1031 {
+#link-to-1026, #link-to-1027, #link-to-1028, #link-to-1031, #project0, 
+#link-to-1107, #link-to-1108{
   color: #71C255;
   text-decoration: none;
   border-color: rgb(0,0,0);
@@ -93,6 +94,18 @@ footer {
 
 #link-to-1031 {
   top: 50%;
+}
+
+#project0 {
+  top: 60%;
+}
+
+#link-to-1107 {
+  top: 70%;
+}
+
+#link-to-1108 {
+  top: 80%;
 }
 
 
