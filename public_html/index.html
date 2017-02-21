@@ -11,30 +11,50 @@
   <!-- mobile -->
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <!-- styles -->
-  <link rel="stylesheet" type="text/css" href="vendor/css/normalize.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-  <!-- scripts -->
-  <script type="text/javascript" src="assets/js/app.js"></script>
-  <script type "jquery" src="/Users/katiedodd/Downloads/jquery-3.1.1.js"></script>
-  <!-- favicon -->
-  <link rel="icon" type="image/png" href="assets/imgs/favicon.png">
+  <link rel="stylesheet" type="text/css" href="../vendor/css/normalize.css">
   <link href="/Users/katiedodd/Downloads/bootstrap-3.3.7-dist/css/bootstrap.min.css" media="all" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="../assets/css/main.css">
+  <!-- scripts -->
+  <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="../assets/js/app.js"></script>
+  <!-- favicon -->
+  <link rel="icon" type="image/png" href="../assets/imgs/favicon.png">
 </head>
 <body>
-  <div id="image">
-    <img src="https://newevolutiondesigns.com/images/freebies/black-white-background-3.jpg" alt="black and white">
-    <h1>Katie Dodd</h1>
-    <h2>Developing since 2016</h2>
+  <div class="container">
+    <div class="row">
+      <div>
+        <!-- <img src="https://newevolutiondesigns.com/images/freebies/black-white-background-3.jpg" alt="black and white"> -->
+        <h1>Katie Dodd</h1>
+        <h2>Full-Stack Developer</h2>
+      </div>
+      <nav>
+        <ul class="nav nav-pills">
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
   </div>
-  <div id="nav-bar">
-  <nav>
-    <ul>
-      <li><a href="aboutme.html">About Me</li>
-      <li><a href="contactinfo.html">Contact Info</li>
-      <li><a href="githublinks.html">Github Links</li>
-    </ul>
-  </nav>
+<div class="container" id="about-box">
+  <div class="row" id="about">
+    <p>I'm a little teapot short and stout, here is my handle here is my spout, when I get all steamed up then I shout,</p>
+    <p>Tip me over and pour me out!</p>
   </div>
+</div>
+  <div class="container" id="projects-box">
+  <div class="row" id="projects">
+    <p>I'm a little teapot</p>
+  </div>
+</div>
+<div class="container" id="contact-box">
+  <div class="row" id="contact">
+    <p>I'm a little teapot</p>
+  </div>
+</div>
 </body>
 <footer>© Katie Dodd</footer>
 </html>
