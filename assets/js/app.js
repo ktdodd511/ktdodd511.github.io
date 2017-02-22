@@ -6,6 +6,7 @@ $(document).ready(function () {
 //Navbar buttons to sections of website
   $('#about-button').click(function () {
     $('#about').fadeIn(4000);
+    $('#about').show();
   });
 
   $('#projects-button').on('click', function () {
@@ -48,5 +49,6 @@ $(document).ready(function () {
     window.location.replace('https://github.com/ktdodd511/book_it');
 
   });
-  
+
+
 });

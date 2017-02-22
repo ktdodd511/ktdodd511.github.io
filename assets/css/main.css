@@ -48,9 +48,11 @@
   color: #faf0fa;
   font-size: 16px;
   padding: 10px 20px 10px 20px;
+  margin: auto;
   border: solid #12344a 2px;
   text-decoration: none;
 }
+
 
 body {
   background: url('http://www.s3forums.com/forum/attachments/galaxy-s3-graphics/10164d1390686524-share-your-wallpaper-22963-planets-near-turquoise-nebula-1920x1080-fantasy-wallpaper.jpg') no-repeat center center fixed;
@@ -67,4 +69,12 @@ h1, h2, h3 {
 
 #main-nav {
   float: right;
+}
+
+.description, #about-para {
+  background-color: rgba(175,238,238,.5);
+  font-size: 16px;
+  font-family: Georgia;
+  font-weight: bold;
+  display: inline-block;
 }
