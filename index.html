@@ -32,7 +32,7 @@
 <body>
   <div class="container">
     <div class="row">
-      <div>
+      <div class="main-header">
         <!-- <img src="https://newevolutiondesigns.com/images/freebies/black-white-background-3.jpg" alt="black and white"> -->
         <h1>Katie Dodd</h1>
         <h2>Full-Stack Developer</h2>
@@ -40,10 +40,10 @@
     </div>
       <div class="row">
       <nav>
-        <ul class="nav nav-pills">
-          <li><a href="#about"><button id="about-button">About Me</button></a></li>
-          <li><a href="#projects"><button id="projects-button">Projects</button></a></li>
-          <li><a href="#contact"><button id="contact-button">Contact Me</button></a></li>
+        <ul id="main-nav" class="nav nav-pills">
+          <li><a href="#about"><button class="nav-buttons" id="about-button">About Me</button></a></li>
+          <li><a href="#projects"><button class="nav-buttons" id="projects-button">Projects</button></a></li>
+          <li><a href="#contact"><button class="nav-buttons" id="contact-button">Contact Me</button></a></li>
         </ul>
     </nav>
   </div>
@@ -56,25 +56,45 @@
 </div>
   <div class="container" id="projects">
   <div class="row" id="projects-box">
-    <h3><strong>Projects</strong></h3>
+    <h2><strong>Projects</strong></h2>
     <div class="row" id="all-projects">
       <div class="container" id="pupshare">
-        <h4>PupShare</h4>
-        <button id="pupshare-button">See it in action</button>
+        <h3>PupShare</h3>
+          <nav>
+            <ul class="nav nav-pills">
+              <li><button class="buttons-for-projects" id="pupshare-button">Website</button></li>
+              <li><button class="buttons-for-projects" id="pupshare-github-button">Github</button></li>
+            </ul>
+          </nav>
+          <div class="description">
+            <p>PupShare is a dog sharing app meant for people who only want a dog for</p>
+            <p>a few hours can "share" someone else's!</p>
         <div class="project-image">
           <img id="pupshare-img" src="./assets/imgs/pupshare.png">
         </div>
       </div>
+
       <div class="container" id="hiptraveler">
-        <h4>Hiptraveler</h4>
-        <button id="hiptraveler-button">See it in action</button>
+        <h3>Hiptraveler</h3>
+          <nav>
+            <ul class="nav nav-pills">
+              <li><button class="buttons-for-projects" id="hiptraveler-button">Website</button></li>
+              <li><button class="buttons-for-projects" id="hiptraveler-github-button">Github</button></li>
+            </ul>
+          </nav>
         <div class="project-image">
           <img id="hiptraveler-img" src="./assets/imgs/hiptraveler.png">
         </div>
       </div>
+
       <div class="container" id="reviewthatbook">
-        <h4>Review That Book</h4>
-        <button id="reviewthatbook-button">See it in action</button>
+        <h3>Review That Book</h3>
+          <nav>
+            <ul class="nav nav-pills">
+              <li><button class="buttons-for-projects" id="reviewthatbook-button">Website</button></li>
+              <li><button class="buttons-for-projects" id="reviewthatbook-github-button">Github</button></li>
+            </ul>
+          </nav>
         <div class="project-image">
           <img id="book-img" src="./assets/imgs/book.png">
         </div>
@@ -90,5 +110,5 @@
   </div>
 </div>
 </body>
-<footer>© Katie Dodd</footer>
+<footer>made with love by Katie</footer>
 </html>
