@@ -10,3 +10,32 @@
 #pupshare, #hiptraveler, #reviewthatbook {
   padding-top: 50px;
 }
+
+button {
+  background: #36ced9;
+  background-image: -webkit-linear-gradient(top, #36ced9, #19798a);
+  background-image: -moz-linear-gradient(top, #36ced9, #19798a);
+  background-image: -ms-linear-gradient(top, #36ced9, #19798a);
+  background-image: -o-linear-gradient(top, #36ced9, #19798a);
+  background-image: linear-gradient(to bottom, #36ced9, #19798a);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 1px 1px 3px #666666;
+  font-family: Georgia;
+  color: #faf0fa;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px;
+  border: solid #12344a 2px;
+  text-decoration: none;
+}
+
+button {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}

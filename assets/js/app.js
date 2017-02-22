@@ -15,4 +15,19 @@ $(document).ready(function () {
   $('#contact-button').on('click', function () {
     $('#contact').fadeIn(4000);
   });
+
+  $('#pupshare-button').click(function () {
+    window.location.replace('http://pupshare.herokuapp.com');
+
+  });
+
+  $('#hiptraveler-button').click(function () {
+    window.location.replace('http://hiptraveler.herokuapp.com');
+
+  });
+
+  $('#reviewthatbook-button').click(function () {
+    window.location.replace('http://reviewthatbook.herokuapp.com');
+
+  });
 });
