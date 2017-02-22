@@ -1,4 +1,12 @@
+#pupshare-img, #hiptraveler-img, #book-img {
+  width: 80%;
+  height: auto;
+}
 
-body {
-  font-family: 'Sansita', sans-serif;  
+#about, #projects, #contact {
+  display: none;
+}
+
+#pupshare, #hiptraveler, #reviewthatbook {
+  padding-top: 50px;
 }
