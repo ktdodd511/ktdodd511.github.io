@@ -3,10 +3,23 @@ console.log("app.js linked.");
 
 $(document).ready(function () {
 
+  $(window).scroll(function(){
+		if ($(this).scrollTop() > 100) {
+			$('.scrollToTop').fadeIn(400);
+		} else {
+			$('.scrollToTop').fadeOut(400);
+		}
+	});
+
+	//Click event to scroll to top
+	$('.scrollToTop').click(function(){
+		$('html, body').animate({scrollTop : 0},800);
+		return false;
+	});
+
 //Navbar buttons to sections of website
-  $('#about-button').click(function () {
+  $('#about-button').on('click', function () {
     $('#about').fadeIn(4000);
-    $('#about').show();
   });
 
   $('#projects-button').on('click', function () {

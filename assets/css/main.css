@@ -62,13 +62,14 @@ body {
   background-size: cover !important;
 }
 
-h1, h2, h3 {
+h1, h2, h3, .main-header {
   color: #F0F0F0;
   font-family: Georgia;
 }
 
 #main-nav {
   float: right;
+  position: relative;
 }
 
 .description, #about-para {
@@ -77,4 +78,23 @@ h1, h2, h3 {
   font-family: Georgia;
   font-weight: bold;
   display: inline-block;
+}
+
+.scrollToTop{
+	width:100px;
+	height:130px;
+	padding:10px;
+	text-align:center;
+	background: whiteSmoke;
+	font-weight: bold;
+	color: #444;
+	text-decoration: none;
+	position:fixed;
+	top:75px;
+	right:40px;
+	display:none;
+	background: url('Arrow-Up.png') no-repeat 0px 20px;
+}
+.scrollToTop:hover{
+	text-decoration:none;
 }
