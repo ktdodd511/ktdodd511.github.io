@@ -78,6 +78,7 @@ h1, h2, h3, .main-header {
   font-weight: bold;
   display: inline-block;
   color: #230A3A;
+  padding: 10px 10px;
 }
 
 .scrollToTop{
