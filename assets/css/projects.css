@@ -1,10 +1,11 @@
-
-
-
-#about, #projects, #contact {
-  display: none;
+.main-header {
+  color: #0293A7;
 }
 
+#main-nav {
+  float: right;
+  position: relative;
+}
 
 .nav-buttons {
   background: #000;
@@ -25,8 +26,7 @@
   text-decoration: none;
 }
 
-
-.buttons-for-projects {
+.buttons-for-projects, #pupshare-button {
   background: #AFEEEE;
   background-image: -webkit-linear-gradient(top, #AFEEEE, #19798a);
   background-image: -moz-linear-gradient(top, #AFEEEE, #19798a);
@@ -38,32 +38,32 @@
   color: #faf0fa;
   font-size: 16px;
   padding: 10px 20px 10px 20px;
-  margin: auto;
   border: solid #12344a 2px;
   text-decoration: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: none;
 }
 
 
-body {
-  background: url('http://media.gettyimages.com/videos/vibrant-background-loop-aqua-glow-video-id481933589?s=640x640') no-repeat center center fixed;
-  -webkit-background-size: cover !important;
-  -moz-background-size: cover !important;
-  -o-background-size: cover !important;
-  background-size: cover !important;
+#my-name {
+  font-size: 60px;
+  display: inline-block;
 }
 
-h1, h2, h3, .main-header {
-  color: #C7F3F3;
+h2 {
+  font-size: 36px;
 }
 
-#main-nav {
-  float: right;
-  position: relative;
+h3 {
+  font-size: 36px;
+  color: #fff;
 }
 
-.description, #about-para {
+.description, #about-para, #second-about-para {
   background-color: rgba(175,238,238,.5);
-  font-size: 16px;
+  font-size: 24px;
   font-family: Georgia;
   font-weight: bold;
   display: inline-block;
@@ -71,57 +71,29 @@ h1, h2, h3, .main-header {
   padding: 10px 10px;
 }
 
-.scrollToTop{
-	width:130px;
-	height:130px;
-	padding:10px;
-	text-align:center;
-	background: whiteSmoke;
-	font-weight: bold;
-	color: #444;
-	text-decoration: none;
-	position:fixed;
-	top:75px;
-	right:40px;
-	display:none;
-	background: url('Arrow-Up.png') no-repeat 0px 20px;
-}
-.scrollToTop:hover{
-	text-decoration:none;
-}
-
-
 body {
-  margin: 0;
-  height: 100%;
-  min-height: 100%;
-  position: relative;
-  padding: 10px;
-  padding-bottom: 60px;
+  background: url('https://images7.alphacoders.com/379/379370.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
 }
 
-
-#email, #linkedin {
-  font-size: 20px;
-}
-
-#my-name {
-  font-size: 60px;
+#pupshare, #hiptraveler, #reviewthatbook {
+  padding-top: 30px;
   display: inline-block;
+  position: relative;
+  float: left;
+  width: 500px;
+  margin-right: 40px;
+  margin-bottom: 30px
 }
 
-#homepage-para {
-  font-size: 48px;
-  text-align: center;
-  padding-top: 150px;
-  color: #C7F3F3;
-
+#pupshare-img, #hiptraveler-img, #book-img {
+  width: 450px;
+  height: 250px;
 }
 
-#homepage-sub-para {
-  font-size: 36px;
-  text-align: center;
-  padding-top: 40px;
-  color: #C7F3F3;
-
+.project-image {
+  padding-top: 35px;
 }

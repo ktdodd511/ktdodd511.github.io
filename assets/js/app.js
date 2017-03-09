@@ -4,6 +4,9 @@ $(document).ready(function () {
   $('#first-para').fadeIn(2000).removeClass('hidden');
   $('#second-para').fadeIn(10000).removeClass('hidden');
 
+  $('#my-name').on('click', function() {
+    window.location.replace('index.html')
+  });
 
   $(window).scroll(function() {
 		if ($(this).scrollTop() > 100) {
@@ -19,17 +22,12 @@ $(document).ready(function () {
 		return false;
 	});
 
-//Navbar buttons to sections of website
-  $('#about-button').on('click', function () {
-    $('#about').fadeIn(4000);
-  });
-
-  $('#projects-button').on('click', function () {
-    $('#projects').fadeIn(4000);
-  });
-
-  $('#contact-button').on('click', function () {
-    $('#contact').fadeIn(4000);
+  $('#pupshare').mouseover(function() {
+    $(this).animate({opacity: 0.5})
+    $(this).find('#pupshare-button').show();
+  },
+    function () {
+      $(this).find('#pupshare-button').hide();
   });
 
 //PupShare buttons
