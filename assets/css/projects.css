@@ -26,7 +26,7 @@
   text-decoration: none;
 }
 
-.buttons-for-projects, #pupshare-button {
+.buttons-for-projects {
   background: #AFEEEE;
   background-image: -webkit-linear-gradient(top, #AFEEEE, #19798a);
   background-image: -moz-linear-gradient(top, #AFEEEE, #19798a);
@@ -38,14 +38,54 @@
   color: #faf0fa;
   font-size: 16px;
   padding: 10px 20px 10px 20px;
-  border: solid #12344a 2px;
   text-decoration: none;
+  position: relative;
+
+}
+
+#pupshare-view2, #hip-view2, #book-view2 {
+  font-size: 24px;
+  font-family: Georgia cursive;
+  text-shadow: 1px 1px 3px #666666;
+  color: #faf0fa;
   position: absolute;
-  bottom: 0;
-  left: 0;
+  right: 41%;
+  top: 60%;
   display: none;
 }
 
+#pupshare-view1 {
+  font-size: 36px;
+  font-family: Georgia cursive;
+  text-shadow: 1px 1px 3px #666666;
+  color: #faf0fa;
+  position: absolute;
+  right: 40%;
+  top: 45%;
+  display: none;
+}
+
+#hip-view1 {
+  font-size: 36px;
+  font-family: Georgia cursive;
+  text-shadow: 1px 1px 3px #666666;
+  color: #faf0fa;
+  position: absolute;
+  right: 35%;
+  top: 45%;
+  display: none;
+}
+
+#book-view1 {
+  font-size: 36px;
+  font-family: Georgia cursive;
+  text-shadow: 1px 1px 3px #666666;
+  color: #faf0fa;
+  position: absolute;
+  right: 25%;
+  top: 45%;
+  display: none;
+}
 
 #my-name {
   font-size: 60px;
@@ -94,6 +134,23 @@ body {
   height: 250px;
 }
 
+
+#pupshare-img:hover, #hiptraveler-img:hover, #book-img:hover {
+  opacity: 0.5;
+}
+
 .project-image {
   padding-top: 35px;
+}
+
+.about-project {
+  font-family: Courier;
+  font-size: 24px;
+  padding: 30px 40px;
+}
+
+.tech-used {
+  font-family: Courier;
+  font-size: 20px;
+  padding: 30px 40px;
 }
