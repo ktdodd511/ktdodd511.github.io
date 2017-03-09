@@ -1,6 +1,11 @@
 $(document).ready(function () {
 
-  $(window).scroll(function(){
+
+  $('#first-para').fadeIn(2000).removeClass('hidden');
+  $('#second-para').fadeIn(10000).removeClass('hidden');
+
+
+  $(window).scroll(function() {
 		if ($(this).scrollTop() > 100) {
 			$('.scrollToTop').fadeIn(400);
 		} else {
@@ -9,7 +14,7 @@ $(document).ready(function () {
 	});
 
 	//Click event to scroll to top
-	$('.scrollToTop').click(function(){
+	$('.scrollToTop').click(function() {
 		$('html, body').animate({scrollTop : 0},800);
 		return false;
 	});
@@ -59,6 +64,8 @@ $(document).ready(function () {
     window.location.replace('https://github.com/ktdodd511/book_it');
 
   });
+
+
 
 
 });
