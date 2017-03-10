@@ -154,3 +154,11 @@ body {
   font-size: 20px;
   padding: 30px 40px;
 }
+
+.project-title {
+  text-align: center;
+  font-family: Courier;
+  font-size: 32px;
+  padding-top: 40px;
+  text-decoration: underline;
+}

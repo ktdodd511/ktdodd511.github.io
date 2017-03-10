@@ -33,7 +33,7 @@ $(document).ready(function () {
 
 
   $('#hiptraveler-img').on('click', function () {
-    window.location.replace('http://hiptraveler.herokuapp.com');
+    window.location.replace('hiptraveler.html');
 
   });
 
