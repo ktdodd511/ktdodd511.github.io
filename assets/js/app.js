@@ -51,7 +51,7 @@ $(document).ready(function () {
 
 
   $('#book-img').click(function () {
-    window.location.replace('http://reviewthatbook.herokuapp.com');
+    window.location.replace('book.html');
 
   });
 
