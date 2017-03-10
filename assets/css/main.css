@@ -107,8 +107,13 @@ body {
 }
 
 #footer {
-  padding-top: 100px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
   text-align: center;
+  padding-top: 50px;
 }
 
 button {
@@ -135,11 +140,11 @@ a {
 }
 
 button {
-  background: #3cb0fd;
-  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  background: #005253;
+  background-image: -webkit-linear-gradient(top, #005253);
+  background-image: -moz-linear-gradient(top, #005253);
+  background-image: -ms-linear-gradient(top, #005253);
+  background-image: -o-linear-gradient(top, #005253);
+  background-image: linear-gradient(to bottom, #005253);
   text-decoration: none;
 }
