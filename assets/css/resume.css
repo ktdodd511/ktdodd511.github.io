@@ -83,3 +83,8 @@ button {
 .resume-but {
   padding-top: 50px;
 }
+
+#footer {
+  padding-top: 100px;
+  text-align: center;
+}

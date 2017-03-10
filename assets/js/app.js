@@ -64,6 +64,15 @@ $(document).ready(function () {
 });
 
 
+//email button
+$('.fa-envelope-open-o').on('click', function () {
+  window.location.href = "mailto:ktdodd511@gmail.com";
+});
 
+
+//linkedin button
+  $('.fa-linkedin-square').on('click', function () {
+    window.location.replace('https://www.linkedin.com/in/katherine-dodd-968365130');
+  });
 
 });
