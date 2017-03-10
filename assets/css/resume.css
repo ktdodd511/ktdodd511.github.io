@@ -48,25 +48,26 @@ p {
 }
 
 button {
-  background: #2a8696;
-  background-image: -webkit-linear-gradient(top, #2a8696, #78d7e3);
-  background-image: -moz-linear-gradient(top, #2a8696, #78d7e3);
-  background-image: -ms-linear-gradient(top, #2a8696, #78d7e3);
-  background-image: -o-linear-gradient(top, #2a8696, #78d7e3);
-  background-image: linear-gradient(to bottom, #2a8696, #78d7e3);
+  background: #008B8B;
+  background-image: -webkit-linear-gradient(top, #008B8B);
+  background-image: -moz-linear-gradient(top, #008B8B);
+  background-image: -ms-linear-gradient(top, #008B8B);
+  background-image: -o-linear-gradient(top, #008B8B);
+  background-image: linear-gradient(to bottom, #008B8B);
   -webkit-border-radius: 48;
   -moz-border-radius: 48;
   border-radius: 48px;
   font-family: Arial;
-  color: #ede4ed;
-  font-size: 20px;
+  color: #008B8B;
+  font-size: 32px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
 
-.resume-but {
-  padding-top: 80px;
-  padding-left: 500px;
+a {
+  font-size: 28px;
+  font-family: Arial;
+  color: #97FFFF;
 }
 
 button {
@@ -77,4 +78,8 @@ button {
   background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
   background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
   text-decoration: none;
+}
+
+.resume-but {
+  padding-top: 50px;
 }
