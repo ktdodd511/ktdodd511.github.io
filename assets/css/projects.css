@@ -90,6 +90,7 @@
 #my-name {
   font-size: 60px;
   display: inline-block;
+  cursor: pointer;
 }
 
 h2 {
@@ -132,6 +133,7 @@ body {
 #pupshare-img, #hiptraveler-img, #book-img {
   width: 450px;
   height: 250px;
+  cursor: pointer;
 }
 
 

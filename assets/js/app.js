@@ -5,10 +5,9 @@ $(document).ready(function () {
   $('#second-para').fadeIn(10000).removeClass('hidden');
 
 
-  $('#my-name').mouseover(function() {
-    $('#my-name').on('click', function() {
+
+  $('#my-name').on('click', function() {
       window.location.replace('index.html')
-    })
 
   });
 

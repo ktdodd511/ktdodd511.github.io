@@ -29,6 +29,7 @@ h1, h2, h3, .main-header {
 #my-name {
   font-size: 60px;
   display: inline-block;
+  cursor: pointer;
 }
 
 h2 {

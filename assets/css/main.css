@@ -1,6 +1,4 @@
 
-
-
 #about, #projects, #contact {
   display: none;
 }
@@ -89,6 +87,7 @@ body {
 #my-name {
   font-size: 60px;
   display: inline-block;
+  cursor: pointer;
 }
 
 #homepage-para {
