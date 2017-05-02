@@ -36,7 +36,7 @@ h2 {
   font-size: 36px;
 }
 
-#about-para, #second-about-para {
+#about-para, #second-about-para, #resume-para {
   background-color: rgba(175,238,238,.5);
   font-size: 24px;
   font-family: Arial;
