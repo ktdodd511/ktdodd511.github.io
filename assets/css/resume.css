@@ -40,7 +40,7 @@ h1, h2, h3, .main-header {
   cursor: pointer;
 }
 
-p {
+#download-resume {
   text-align: center;
   font-size: 36px;
   font-family: Georgia;
@@ -65,7 +65,7 @@ button {
   text-decoration: none;
 }
 
-a {
+.resume-pdf {
   font-size: 28px;
   font-family: Arial;
   color: #97FFFF;
@@ -82,7 +82,53 @@ button {
 }
 
 .resume-but {
+  padding: 50px;
+
+}
+
+#contact-head, #skills-head, #experience-head {
+  border: solid black 2px;
+  padding: 15px;
+  display: block;
+  color: black;
+  font-family: Arial cursive;
+}
+
+#resume-contact {
+  list-style-type: none;
+}
+
+#resume-contact, #resume-skills, .experience-body {
+  display: none;
+  color: black;
+  font-family: Arial cursive;
+  text-align: center;
+}
+
+.resume-name {
+  text-align: center;
+  color: black;
+}
+
+.typed-resume {
+  font-family: Arial cursive;
   padding-top: 50px;
+}
+
+li {
+  color: black;
+  font-family: Arial cursive;
+}
+
+.contact-details, .skills-details, .experience-details {
+  font-family: Arial cursive;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: left;
+}
+
+.contact-details a {
+  color: #97FFFF;
 }
 
 #footer {
