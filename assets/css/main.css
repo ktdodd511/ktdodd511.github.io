@@ -1,48 +1,11 @@
-
-#about, #projects, #contact {
-  display: none;
-}
-
-
-.nav-buttons {
-  background: #000;
-  background-image: -webkit-linear-gradient(top, #000, #19798a);
-  background-image: -moz-linear-gradient(top, #000, #19798a);
-  background-image: -ms-linear-gradient(top, #000, #19798a);
-  background-image: -o-linear-gradient(top, #000, #19798a);
-  background-image: linear-gradient(to bottom, #000, #19798a);
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
-  text-shadow: 1px 1px 3px #666666;
-  font-family: Georgia;
-  color: #faf0fa;
-  font-size: 16px;
-  padding: 10px 20px 10px 20px;
-  border: solid #12344a 2px;
-  text-decoration: none;
-}
-
-
-.buttons-for-projects {
-  background: #AFEEEE;
-  background-image: -webkit-linear-gradient(top, #AFEEEE, #19798a);
-  background-image: -moz-linear-gradient(top, #AFEEEE, #19798a);
-  background-image: -ms-linear-gradient(top, #AFEEEE, #19798a);
-  background-image: -o-linear-gradient(top, #AFEEEE, #19798a);
-  background-image: linear-gradient(to bottom, #AFEEEE, #19798a);
-  text-shadow: 1px 1px 3px #666666;
-  font-family: Courier;
-  color: #faf0fa;
-  font-size: 16px;
-  padding: 10px 20px 10px 20px;
-  margin: auto;
-  border: solid #12344a 2px;
-  text-decoration: none;
-}
-
-
 body {
+  font-family: 'Yrsa', serif;
+  margin: 0;
+  height: 100%;
+  min-height: 100%;
+  position: relative;
+  padding: 10px;
+  padding-bottom: 60px;
   background: url('http://media.gettyimages.com/videos/vibrant-background-loop-aqua-glow-video-id481933589?s=640x640') no-repeat center center fixed;
   -webkit-background-size: cover !important;
   -moz-background-size: cover !important;
@@ -50,33 +13,9 @@ body {
   background-size: cover !important;
 }
 
+
 h1, h2, h3, .main-header {
   color: #C7F3F3;
-}
-
-#main-nav {
-  float: right;
-  position: relative;
-}
-
-.description, #about-para {
-  background-color: rgba(175,238,238,.5);
-  font-size: 16px;
-  font-family: Georgia;
-  font-weight: bold;
-  display: inline-block;
-  color: #230A3A;
-  padding: 10px 10px;
-}
-
-
-body {
-  margin: 0;
-  height: 100%;
-  min-height: 100%;
-  position: relative;
-  padding: 10px;
-  padding-bottom: 60px;
 }
 
 
@@ -100,50 +39,78 @@ body {
 
 #homepage-sub-para {
   font-size: 36px;
+  font-style: italic;
   text-align: center;
-  padding-top: 40px;
+  padding-top: 5px;
+  padding-bottom: 150px;
   color: #C7F3F3;
 }
 
-#footer {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  text-align: center;
-  padding-top: 50px;
+.navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+  border: none;
 }
 
-button {
-  background: #008B8B;
-  background-image: -webkit-linear-gradient(top, #008B8B);
-  background-image: -moz-linear-gradient(top, #008B8B);
-  background-image: -ms-linear-gradient(top, #008B8B);
-  background-image: -o-linear-gradient(top, #008B8B);
-  background-image: linear-gradient(to bottom, #008B8B);
-  -webkit-border-radius: 48;
-  -moz-border-radius: 48;
-  border-radius: 48px;
-  font-family: Arial;
-  color: #008B8B;
-  font-size: 32px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
+.navbar-collapse {
+  text-align: center;
+  font-size: 25px;
+  border: none;
 }
 
 a {
-  font-size: 28px;
-  font-family: Arial;
-  color: #97FFFF;
+  color: #004d4d;
+  text-decoration: none;
+  outline: none;
+  border: none;
 }
 
-button {
-  background: #005253;
-  background-image: -webkit-linear-gradient(top, #005253);
-  background-image: -moz-linear-gradient(top, #005253);
-  background-image: -ms-linear-gradient(top, #005253);
-  background-image: -o-linear-gradient(top, #005253);
-  background-image: linear-gradient(to bottom, #005253);
-  text-decoration: none;
+a:hover {
+  color: #004d4d;
+  text-decoration: underline;
+  border: none;
+  outline: none;
+}
+
+
+#pupshare, #hiptraveler, #reviewthatbook {
+  padding-top: 30px;
+  display: inline-block;
+  position: relative;
+  float: left;
+  width: 500px;
+  margin-right: 40px;
+  margin-bottom: 30px
+}
+
+#pupshare-img, #hiptraveler-img, #book-img {
+  width: 450px;
+  height: 250px;
+  cursor: pointer;
+}
+
+#all-projects {
+  padding-left: 50px;
+}
+
+#about-box {
+  padding-top: 150px;
+}
+
+
+#pupshare-img:hover, #hiptraveler-img:hover, #book-img:hover {
+  opacity: 0.5;
+}
+
+#about-para, #second-about-para, #resume-para {
+  background-color: rgba(175,238,238,.5);
+  font-size: 24px;
+  display: inline-block;
+  color: #230A3A;
+  padding: 10px 10px;
+}
+
+#projects {
+  padding-top: 150px;
 }
