@@ -1,47 +1,25 @@
+body {
+  font-family: 'Yrsa', serif !important;
+  background: url('https://images7.alphacoders.com/379/379370.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
+}
+
+
 .main-header {
   color: #0293A7;
 }
 
-#main-nav {
-  float: right;
-  position: relative;
+.navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: center;
+  border: none;
+  padding-left: 460px;
 }
 
-.nav-buttons {
-  background: #000;
-  background-image: -webkit-linear-gradient(top, #000, #19798a);
-  background-image: -moz-linear-gradient(top, #000, #19798a);
-  background-image: -ms-linear-gradient(top, #000, #19798a);
-  background-image: -o-linear-gradient(top, #000, #19798a);
-  background-image: linear-gradient(to bottom, #000, #19798a);
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
-  text-shadow: 1px 1px 3px #666666;
-  font-family: Georgia;
-  color: #faf0fa;
-  font-size: 16px;
-  padding: 10px 20px 10px 20px;
-  border: solid #12344a 2px;
-  text-decoration: none;
-}
-
-.buttons-for-projects {
-  background: #AFEEEE;
-  background-image: -webkit-linear-gradient(top, #AFEEEE, #19798a);
-  background-image: -moz-linear-gradient(top, #AFEEEE, #19798a);
-  background-image: -ms-linear-gradient(top, #AFEEEE, #19798a);
-  background-image: -o-linear-gradient(top, #AFEEEE, #19798a);
-  background-image: linear-gradient(to bottom, #AFEEEE, #19798a);
-  text-shadow: 1px 1px 3px #666666;
-  font-family: Courier;
-  color: #faf0fa;
-  font-size: 16px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-  position: relative;
-
-}
 
 #pupshare-view2, #hip-view2, #book-view2 {
   font-size: 24px;
@@ -107,14 +85,6 @@ h3 {
   padding: 10px 10px;
 }
 
-body {
-  font-family: 'Yrsa', serif;
-  background: url('https://images7.alphacoders.com/379/379370.jpg') no-repeat center center fixed;
-  -webkit-background-size: cover !important;
-  -moz-background-size: cover !important;
-  -o-background-size: cover !important;
-  background-size: cover !important;
-}
 
 #pupshare, #hiptraveler, #reviewthatbook {
   padding-top: 30px;
@@ -173,27 +143,10 @@ li {
   padding-top: 50px;
 }
 
-button {
-  background: #005253;
-  background-image: -webkit-linear-gradient(top, #005253);
-  background-image: -moz-linear-gradient(top, #005253);
-  background-image: -ms-linear-gradient(top, #005253);
-  background-image: -o-linear-gradient(top, #005253);
-  background-image: linear-gradient(to bottom, #005253);
-  -webkit-border-radius: 48;
-  -moz-border-radius: 48;
-  border-radius: 48px;
-  font-family: Arial;
-  color: #005253;
-  font-size: 32px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-}
 
 a {
   font-size: 28px;
-  font-family: Arial;
-  color: #97FFFF;
+  color: #0293A7;
 }
 
 button {

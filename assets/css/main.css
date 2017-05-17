@@ -90,6 +90,11 @@ a:hover {
   cursor: pointer;
 }
 
+.title-project {
+  color: #C7F3F3;
+  font-size: 20px;
+}
+
 #all-projects {
   padding-left: 50px;
 }
@@ -111,6 +116,26 @@ a:hover {
   padding: 10px 10px;
 }
 
-#projects {
+#projects, #about {
   padding-top: 150px;
+}
+
+#footer {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+  padding-top: 50px;
+}
+
+button {
+  background: #005253;
+  background-image: -webkit-linear-gradient(top, #005253, #3498db);
+  background-image: -moz-linear-gradient(top, #005253, #3498db);
+  background-image: -ms-linear-gradient(top, #005253, #3498db);
+  background-image: -o-linear-gradient(top, #005253, #3498db);
+  background-image: linear-gradient(to bottom, #005253, #3498db);
+  text-decoration: none;
 }

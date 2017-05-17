@@ -13,6 +13,7 @@ $(document).ready(function () {
 
 
 
+
   //PUPSHARE//
 
 
@@ -21,13 +22,6 @@ $(document).ready(function () {
 
   });
 
-  $('#pupshare-img').hover(function () {
-    $('.pupshare-view').show();
-
-  },
-    function () {
-      $('.pupshare-view').hide();
-});
 
 
 
@@ -39,13 +33,6 @@ $(document).ready(function () {
 
   });
 
-  $('#hiptraveler-img').hover(function () {
-    $('.hip-view').show();
-
-  },
-    function () {
-      $('.hip-view').hide();
-});
 
 
 
@@ -57,13 +44,6 @@ $(document).ready(function () {
 
   });
 
-  $('#book-img').hover(function () {
-    $('.book-view').show();
-
-  },
-    function () {
-      $('.book-view').hide();
-});
 
 
 
