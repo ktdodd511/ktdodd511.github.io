@@ -49,17 +49,17 @@ $(document).ready(function () {
 
 //RESUME PAGE//
 
-$('#contact-head').hover(function () {
+$('#contact-head').on('click', function () {
   $('#resume-contact').show(2000);
 
 });
 
-$('#skills-head').hover(function () {
+$('#skills-head').on('click', function () {
   $('#resume-skills').show(2000);
 
 });
 
-$('#experience-head').hover(function () {
+$('#experience-head').on('click', function () {
   $('.experience-body').show(2000);
 
 });

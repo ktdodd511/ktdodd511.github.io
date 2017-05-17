@@ -72,6 +72,14 @@ button {
   color: black;
 }
 
+a:hover {
+  color: #C7F3F3;
+}
+
+a {
+  color: black;
+}
+
 #resume-contact {
   list-style-type: none;
 }
