@@ -74,7 +74,7 @@ a:hover {
 }
 
 
-#pupshare, #hiptraveler, #reviewthatbook {
+#pupshare, #hiptraveler, #reviewthatbook, #interactivestory {
   padding-top: 30px;
   display: inline-block;
   position: relative;
@@ -84,15 +84,14 @@ a:hover {
   margin-bottom: 30px
 }
 
-#pupshare-img, #hiptraveler-img, #book-img {
+#pupshare-img, #hiptraveler-img, #book-img, #story-img {
   width: 450px;
   height: 250px;
-  cursor: pointer;
 }
 
 .title-project {
   color: #C7F3F3;
-  font-size: 20px;
+  font-size: 28px;
 }
 
 #all-projects {
@@ -102,11 +101,6 @@ a:hover {
 
 #about-box {
   padding-top: 150px;
-}
-
-
-#pupshare-img:hover, #hiptraveler-img:hover, #book-img:hover {
-  opacity: 0.5;
 }
 
 #about-para, #second-about-para, #resume-para {
@@ -139,4 +133,14 @@ button {
   background-image: -o-linear-gradient(top, #005253, #3498db);
   background-image: linear-gradient(to bottom, #005253, #3498db);
   text-decoration: none;
+}
+
+.story-link {
+  color: #C7F3F3;
+  font-size: 24px;
+  padding-left: 10px;
+}
+
+.story-link:hover {
+  color: #230A3A;
 }
