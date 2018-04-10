@@ -19,6 +19,7 @@
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Yrsa" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./assets/css/boostrap-social.css">
   <link rel="stylesheet" type="text/css" href="./assets/css/main.css">
 
 
@@ -38,7 +39,6 @@
 </head>
 <body>
   <div class="container">
-    <div class="row">
       <div class="main-header">
         <h1 id="my-name">kd</h1>
       </div>
@@ -46,79 +46,78 @@
   <div class="collapse navbar-collapse" id="main-nav">
   <ul class="nav navbar-nav">
     <li><a href="#projects">Projects</a></li>
-    <li><a href="#about">About Me</a></li>
     <li><a href="resume.html">Resume</a></li>
   </ul>
 </div>
   <div id="first-para">
     <p id="homepage-para">Katie Dodd</p>
-  <div>
   <div id="second-para">
     <p id="homepage-sub-para"></p>
   </div>
-
-  </div>
+</div>
 
 <div class="container" id="projects">
 <div class="row" id="projects-box">
   <div class="row" id="all-projects">
     <h1>Projects</h1>
 
-    <div class="container" id="hiptraveler">
-      <div class="project-image">
-        <img id="hiptraveler-img" src="./assets/imgs/hiptraveler.png">
-        <a class="story-link" href="https://github.com/caseyjoneal/hip_traveler">Github</a>
-        <a class="story-link" href="http://hiptraveler.herokuapp.com/">Website</a>
-        <p class="title-project" id="hip-view">HipTraveler</p>
-      </div>
-    </div>
+    <div class="container" id="top-div">
+      <div class="row">
+          <div class="col-md-5 project-image">
+            <img id="pupshare-img" src="./assets/imgs/pupshare.png">
+            <a class="story-link" href="https://github.com/ktdodd511/pupshare">Github</a>
+            <a class="story-link" href="http://pupshare.herokuapp.com/">Website</a>
+            <p class="title-project" id="pupshare-view">PupShare</p>
+          </div>
 
-    <div class="container" id="pupshare">
-      <div class="project-image">
-        <img id="pupshare-img" src="./assets/imgs/pupshare.png">
-        <a class="story-link" href="https://github.com/ktdodd511/pupshare">Github</a>
-        <a class="story-link" href="http://pupshare.herokuapp.com/">Website</a>
-        <p class="title-project" id="pupshare-view">PupShare</p>
-      </div>
-    </div>
+          <div class="col-md-2"></div>
 
-    <div class="container" id="reviewthatbook">
-      <div class="project-image">
-        <img id="book-img" src="./assets/imgs/book.png">
-        <a class="story-link" href="https://github.com/ktdodd511/book_it">Github</a>
-        <a class="story-link" href="http://reviewthatbook.herokuapp.com/">Website</a>
-        <p class="title-project" id="book-view">ReviewThatBook</p>
+          <div class="col-md-5 project-image">
+            <img id="store-img" src="./assets/imgs/store.png">
+            <a class="story-link" href="https://github.com/katie-r3/store">Github</a>
+            <a class="story-link" href="https://intense-spire-74031.herokuapp.com/">Website</a>
+            <p class="title-project" id="story-view">Online Store</p>
+          </div>
+        </div>
       </div>
-    </div>
 
-    <div class="container" id="interactivestory">
-      <div class="project-image">
-        <img id="story-img" src="./assets/imgs/interactiveStoryAppimg.png">
-        <a class="story-link" href="https://github.com/ktdodd511/InteractiveStory">Github</a>
-        <p class="title-project" id="story-view">InteractiveStory</p>
+    <div class="container" id="bottom-div">
+      <div class="row">
+        <div class="col-md-5 project-image">
+          <img id="book-img" src="./assets/imgs/book.png">
+          <a class="story-link" href="https://github.com/ktdodd511/book_it">Github</a>
+          <a class="story-link" href="http://reviewthatbook.herokuapp.com/">Website</a>
+          <p class="title-project" id="book-view">ReviewThatBook</p>
+        </div>
+
+        <div class="col-md-2"></div>
+
+        <div class="col-md-5 project-image">
+          <img id="story-img" src="./assets/imgs/interactiveStoryAppimg.png">
+          <a class="story-link" href="https://github.com/ktdodd511/InteractiveStory">Github</a>
+          <p class="title-project" id="story-view">Interactive Story</p>
+        </div>
       </div>
-    </div>
-
     </div>
   </div>
-</div>
-
-<div class="container" id="about">
-  <div class="row" id="about-box">
-    <h2><strong>Fun Facts About Me:</strong></h2>
-    <p id="about-para">I love reading. I'll read anything, from cereal boxes to Tolkien. I watch way too much anime and also enjoy drawing. In another life I worked in an art gallery in Atlanta.</p>
-    <p id="second-about-para">Although I grew up in Georgia, I don't have a southern accent. I graduated from Georgia State University with a B.A. in Art History. After I moved to Oakland from Atlanta, I decided I needed to be more challenged and that led me to web development.</p>
-    <p id="resume-para">To learn more about my skills and background, <a href="resume.html">check out my resume.</a></p>
   </div>
 </div>
 
 
 </body>
 
-<div id="footer">
+<div class= "row" id="footer">
   <footer>
-      <button><i class="fa fa-envelope-open-o" aria-hidden="true"></i></button>
-      <button><i class="fa fa-linkedin-square" aria-hidden="true"></i></button>
+    <div class="col-md-3">
+      <a class="btn btn-block btn-linkedin">
+        <span class="fa fa-linkedin-square"></span>
+      </a>
+    </div>
+    <div class="col-md-3">
+      <a class="btn btn-block btn-lg btn-linkedin">
+        <span class="fa fa-linkedin-square"></span>
+      </a>
+    </div>
   </footer>
 </div>
 
