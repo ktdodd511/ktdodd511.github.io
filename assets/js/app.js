@@ -3,9 +3,9 @@ $(document).ready(function () {
 
   $('#my-name').on('click', function() {
       window.location.replace('index.html')
-
   });
 
+  $('.story-link').hide();
 
   // magically write words across the screen
 
@@ -71,6 +71,15 @@ $(document).ready(function () {
 
   var timeout = window.setTimeout(tick, delay);
 
+
+$('.project-images').hover(function(){
+  $(this).css('opacity', '0.5');
+  $(this).next().show();
+  $(this).mouseleave(function(){
+    $(this).css('opacity', '');
+    $('.story-link').hide();
+  });
+});
 
 
 

@@ -53,24 +53,27 @@ h1, h2, h3, .main-header {
   border: none;
 }
 
+.navbar-nav li a {
+  text-decoration: none;
+  color: #003239;
+}
+
+.navbar-nav li a:hover {
+  background-color: #50D894;
+  color: #fff;
+}
+
 .navbar-collapse {
   text-align: center;
   font-size: 25px;
   border: none;
 }
 
-a {
-  color: #004d4d;
-  text-decoration: none;
-  outline: none;
-  border: none;
-}
-
-a:hover {
-  color: #004d4d;
-  text-decoration: underline;
-  border: none;
-  outline: none;
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #pupshare-img, #store-img, #book-img, #story-img {

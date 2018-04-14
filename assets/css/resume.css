@@ -62,7 +62,6 @@ button {
 
 .resume-but {
   padding: 50px;
-
 }
 
 #contact-head, #skills-head, #experience-head {
@@ -72,12 +71,13 @@ button {
   color: black;
 }
 
-a:hover {
-  color: #C7F3F3;
+.resume-headers a {
+  text-decoration: none;
+  color: black;
 }
 
-a {
-  color: black;
+a:hover {
+  color: #C7F3F3;
 }
 
 #resume-contact {

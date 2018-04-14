@@ -20,46 +20,6 @@ body {
   padding-left: 460px;
 }
 
-#pupshare-view2, #hip-view2, #book-view2 {
-  font-size: 24px;
-  text-shadow: 1px 1px 3px #666666;
-  color: #faf0fa;
-  position: absolute;
-  right: 41%;
-  top: 60%;
-  display: none;
-}
-
-#pupshare-view1 {
-  font-size: 36px;
-  text-shadow: 1px 1px 3px #666666;
-  color: #faf0fa;
-  position: absolute;
-  right: 40%;
-  top: 45%;
-  display: none;
-}
-
-#hip-view1 {
-  font-size: 36px;
-  text-shadow: 1px 1px 3px #666666;
-  color: #faf0fa;
-  position: absolute;
-  right: 35%;
-  top: 45%;
-  display: none;
-}
-
-#book-view1 {
-  font-size: 36px;
-  text-shadow: 1px 1px 3px #666666;
-  color: #faf0fa;
-  position: absolute;
-  right: 25%;
-  top: 45%;
-  display: none;
-}
-
 #my-name {
   font-size: 60px;
   display: inline-block;
@@ -108,28 +68,11 @@ h3 {
 
 .project-image {
   padding-top: 35px;
-}
-
-.about-project {
-  font-size: 24px;
-  padding: 30px 40px;
-}
-
-.tech-used {
-  font-size: 20px;
-  padding: 30px 40px;
-  text-align: left;
+  position: relative;
 }
 
 li {
   list-style-type: none;
-}
-
-.project-title {
-  text-align: center;
-  font-size: 32px;
-  padding-top: 40px;
-  text-decoration: underline;
 }
 
 #footer {
